@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Shopping Cart - ENHYPEN Merch</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -10,12 +11,12 @@
     <h1>ENHYPEN Merch - Your Shopping Cart</h1>
 </header>
 
-<section>
+<section class="cart-container">
     <ul>
         <li>
             <img src="album.jpg" alt="Dark Blood Album" width="100">
             <h3>Dark Blood Album</h3>
-            <p>₱1,200</p>
+            <p class="price">1200</p>
             <label>Quantity:
                 <input type="number" min="1" value="1">
             </label>
@@ -24,10 +25,10 @@
 </section>
 
 <section>
-    <h2>Subtotal: ₱1,200</h2>
+    <h2>Subtotal: <span class="price">1200</span></h2>
 </section>
 
-<a href="checkout.html">Proceed to Checkout</a>
+<a href="checkout.html"><button>Proceed to Checkout</button></a>
 
 <section>
     <p>Your cart is currently empty.</p>
@@ -35,3 +36,4 @@
 
 </body>
 </html>
+

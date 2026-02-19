@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Checkout - ENHYPEN Merch</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -15,7 +16,6 @@
     <form>
         <fieldset>
             <legend>Shipping Address</legend>
-
             <label for="name">Full Name:</label>
             <input type="text" id="name" required>
 
@@ -47,10 +47,11 @@
 
 <aside>
     <h2>Order Summary</h2>
-    <p>Items: ₱1,200</p>
-    <p>Shipping: ₱100</p>
-    <p><strong>Total: ₱1,300</strong></p>
+    <p>Items: <span class="price">1200</span></p>
+    <p>Shipping: <span class="price">100</span></p>
+    <p><strong>Total: <span class="price">1300</span></strong></p>
 </aside>
 
 </body>
 </html>
+
