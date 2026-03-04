@@ -8,21 +8,28 @@
 <body>
 
 <header>
-    <h1>Create an Account - ENHYPEN Merch</h1>
+    <h1>Create an Account</h1>
+    <nav>
+        <ul>
+            <li><a href="landingpage.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+        </ul>
+    </nav>
 </header>
 
-<section>
-    <form action="account.html" method="get">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
+<section class="auth-section">
+    <form class="auth-form" action="account.html" method="get">
+        <h2>Sign Up</h2>
 
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
+        <label>Email</label>
+        <input type="email" required>
 
-        <button type="submit">Sign Up</button>
+        <label>Password</label>
+        <input type="password" required>
+
+        <button type="submit">Create Account</button>
     </form>
 </section>
 
 </body>
 </html>
-

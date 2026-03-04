@@ -9,43 +9,53 @@
 
 <header>
     <h1>ENHYPEN Merch - Products</h1>
+    <nav>
+        <ul>
+            <li><a href="landingpage.html">Home</a></li>
+            <li><a href="account.html">Account</a></li>
+            <li><a href="cart.html">Cart</a></li>
+        </ul>
+    </nav>
 </header>
 
-<main>
-    <section>
-        <article>
-            <img src="album.jpg" alt="Dark Blood Album" width="200" height="300">
-            <h2>Dark Blood Album</h2>
-            <p class="price">1200</p>
-            <a href="detail.html">View Details</a>
-        </article>
+<div class="products-layout">
 
-        <article>
-            <img src="keychain.jpg" alt="Logo Keychain" width="200" height="300">
-            <h2>Logo Keychain</h2>
-            <p class="price">300</p>
-            <a href="detail.html">View Details</a>
-        </article>
-    </section>
-</main>
+    <aside>
+        <h2>Filter Products</h2>
+        <form>
+            <fieldset>
+                <legend>Category</legend>
+                <label><input type="checkbox"> Album</label>
+                <label><input type="checkbox"> Apparel</label>
+            </fieldset>
 
-<aside>
-    <h2>Filter Products</h2>
-    <form>
-        <fieldset>
-            <legend>Category</legend>
-            <label><input type="checkbox" name="category" value="album"> Album</label>
-            <label><input type="checkbox" name="category" value="apparel"> Apparel</label>
-        </fieldset>
+            <fieldset>
+                <legend>Price Range</legend>
+                <label><input type="radio" name="price"> Below ₱2,000</label>
+                <label><input type="radio" name="price"> Above ₱2,000</label>
+            </fieldset>
+        </form>
+    </aside>
 
-        <fieldset>
-            <legend>Price Range</legend>
-            <label><input type="radio" name="price" value="low"> Below ₱2,000</label>
-            <label><input type="radio" name="price" value="high"> Above ₱2,000</label>
-        </fieldset>
-    </form>
-</aside>
+    <main>
+        <section class="product-grid">
+            <article>
+                <img src="album.jpg" alt="Dark Blood Album">
+                <h2>Dark Blood Album</h2>
+                <p class="price">1200</p>
+                <a href="detail.html">View Details</a>
+            </article>
+
+            <article>
+                <img src="keychain.jpg" alt="Logo Keychain">
+                <h2>Logo Keychain</h2>
+                <p class="price">300</p>
+                <a href="detail.html">View Details</a>
+            </article>
+        </section>
+    </main>
+
+</div>
 
 </body>
 </html>
-

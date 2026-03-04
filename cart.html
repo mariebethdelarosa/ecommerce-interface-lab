@@ -9,31 +9,34 @@
 
 <header>
     <h1>ENHYPEN Merch - Your Shopping Cart</h1>
+    <nav>
+        <ul>
+            <li><a href="landingpage.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+        </ul>
+    </nav>
 </header>
 
 <section class="cart-container">
     <ul>
         <li>
-            <img src="album.jpg" alt="Dark Blood Album" width="100">
-            <h3>Dark Blood Album</h3>
-            <p class="price">1200</p>
-            <label>Quantity:
+            <img src="album.jpg" alt="Dark Blood Album">
+            <div>
+                <h3>Dark Blood Album</h3>
+                <p class="price">1200</p>
+            </div>
+            <label>
+                Quantity:
                 <input type="number" min="1" value="1">
             </label>
         </li>
     </ul>
 </section>
 
-<section>
+<section class="cart-total">
     <h2>Subtotal: <span class="price">1200</span></h2>
-</section>
-
-<a href="checkout.html"><button>Proceed to Checkout</button></a>
-
-<section>
-    <p>Your cart is currently empty.</p>
+    <a href="checkout.html"><button>Proceed to Checkout</button></a>
 </section>
 
 </body>
 </html>
-
